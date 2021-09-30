@@ -21,7 +21,7 @@ const Restautant = () => {
     };
     return (
         <div className="container">
-            <div className="my-4">
+            <div className="my-5">
                 <input
                     className='w-75 p-2'
                     onChange={handleSearchMeal}
