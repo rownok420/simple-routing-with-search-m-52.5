@@ -12,12 +12,12 @@ const Meal = (props) => {
                     <Card.Title>{strMeal}</Card.Title>
                     <Card.Text>{strInstructions.slice(0, 150)}</Card.Text>
                 </Card.Body>
-                <Card.Footer className='text-center d-flex justify-content-between p-3'>
+                <Card.Footer className='text-center d-flex flex-column flex-md-row justify-content-between p-3'>
                     <Link to='/category'>
-                        <button className='btn btn-outline-success'>See category</button>
+                        <button className='btn btn-outline-success w-100 mb-3 mb-md-0'>See category</button>
                     </Link>
                     <Link to={`/meal/${idMeal}`}>
-                        <button className='btn btn-outline-success'>See details</button>
+                        <button className='btn btn-outline-success w-100'>See details</button>
                     </Link>
                 </Card.Footer>
             </Card>

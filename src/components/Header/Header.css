@@ -1,7 +1,14 @@
-nav a{
+nav a {
     color: white;
     text-decoration: none;
     margin: 10px;
     font-size: 18px;
     font-weight: bold;
+}
+
+nav a:hover,
+nav a:active {
+    font-weight: bold;
+    color: yellow;
+    text-decoration: underline;
 }
